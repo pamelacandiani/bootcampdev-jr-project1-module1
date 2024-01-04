@@ -1,4 +1,42 @@
+body {
+    background-color: #CCC;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 .container {
     background-color: #2f1034;
     color: #fff1d9;
+    margin: auto;
+
+    width: 1700px;
+    text-align: center;  
+    font-size: 25px;
+
+    border-radius: 10px;
+
+}
+
+.header {
+    padding: 50px;
+}
+
+.header-title {
+    color: #fecd23;
+   
+    font-size: 40px;
+    font-weight: 700;
+
+    margin-bottom: 60px; 
+}
+
+.header-subtitle1 {
+    margin-bottom: 25px; 
+}
+
+.header-subtitle2 {
+    margin-top: 25px;
+}
+
+.gift {
+    font-weight: bold;
 }
