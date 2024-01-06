@@ -8,12 +8,11 @@ body {
     color: #fff1d9;
     margin: auto;
 
-    width: 1700px;
+    width: 1000px;
     text-align: center;  
-    font-size: 25px;
+    font-size: 20px;
 
     border-radius: 10px;
-
 }
 
 .header {
@@ -23,7 +22,7 @@ body {
 .header-title {
     color: #fecd23;
    
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
 
     margin-bottom: 60px; 
@@ -39,4 +38,34 @@ body {
 
 .gift {
     font-weight: bold;
+}
+
+
+.main {
+    background-color: #561b60;
+    border-radius: 10px;
+    margin: auto;
+    width: 950px;
+}
+
+.main-title {
+    font-size: 32px;
+    padding: 20px;  
+}
+
+input {
+    font-size: 20px;
+    padding-left: 10px;
+    height: 40px;
+
+    width: 70%;
+    margin: 15px;
+
+    border-radius: 5px;
+    border: 0;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #2f1034;
 }
